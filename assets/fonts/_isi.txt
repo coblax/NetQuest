@@ -1,0 +1,1 @@
+Font pixel berlisensi bebas (misalnya dari Google Fonts) dalam format .woff2. Aktifkan @font-face di css/style.css.

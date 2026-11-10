@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>NetQuest: Misteri Jaringan SMK Cendekia</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="game">
+    <canvas id="layar" width="480" height="270"></canvas>
+    <div id="ui"></div>
+    <div id="kontrol-sentuh" hidden></div>
+  </div>
+
+  <!--
+    Urutan pemuatan penting. Semua file memakai script biasa (bukan type="module")
+    dan tidak memakai fetch(), supaya game tetap jalan saat index.html dibuka
+    langsung dari folder (file://) tanpa server dan tanpa internet.
+  -->
+
+  <!-- 1. Pengaturan -->
+  <script src="js/config.js"></script>
+
+  <!-- 2. Data permainan (isi naskah) -->
+  <script src="data/aset.js"></script>
+  <script src="data/ruangan.js"></script>
+  <script src="data/alat.js"></script>
+  <script src="data/jaringan.js"></script>
+  <script src="data/kasus.js"></script>
+  <script src="data/dialog.js"></script>
+  <script src="data/petunjuk.js"></script>
+  <script src="data/umpan-balik.js"></script>
+  <script src="data/konsep.js"></script><!-- Kartu Konsep dan Kenapa Salah? -->
+
+
+  <!-- 3. Mesin game -->
+  <script src="js/core/aset-loader.js"></script>
+  <script src="js/core/input.js"></script>
+  <script src="js/core/kamera.js"></script>
+  <script src="js/core/renderer.js"></script>
+  <script src="js/core/audio.js"></script>
+  <script src="js/core/simpan.js"></script>
+  <script src="js/core/scene-manager.js"></script>
+
+  <!-- 4. Sistem permainan -->
+  <script src="js/systems/peta.js"></script>
+  <script src="js/systems/pemain.js"></script>
+  <script src="js/systems/pingo.js"></script>
+  <script src="js/systems/interaksi.js"></script>
+  <script src="js/systems/dialog.js"></script>
+  <script src="js/systems/tas.js"></script>
+  <script src="js/systems/jurnal.js"></script>
+  <script src="js/systems/pindai.js"></script>
+  <script src="js/systems/petunjuk.js"></script>
+  <script src="js/systems/energi-bintang.js"></script>
+  <script src="js/systems/progres.js"></script>
+  <script src="js/systems/ruang.js"></script>
+
+  <!-- 5. Antarmuka -->
+  <script src="js/ui/hud.js"></script>
+  <script src="js/ui/menu.js"></script>
+  <script src="js/ui/kotak-dialog.js"></script>
+  <script src="js/ui/kontrol-sentuh.js"></script>
+  <script src="js/ui/dekat.js"></script>
+  <script src="js/ui/peta-sekolah.js"></script>
+  <script src="js/ui/kartu-konsep.js"></script>
+
+  <!-- 6. Mini-game (layar tampak dekat) -->
+  <script src="js/minigames/crimping.js"></script>
+  <script src="js/minigames/papan-alamat.js"></script>
+  <script src="js/minigames/panel-router.js"></script>
+  <script src="js/minigames/terminal.js"></script><!-- terminal perintah jaringan (Kasus 5-6) -->
+  <script src="js/minigames/wifi.js"></script>
+  <script src="js/minigames/daftar-perangkat.js"></script>
+  <script src="js/minigames/pertarungan.js"></script>
+  <script src="js/minigames/laporan.js"></script>
+
+  <!-- 7. Scene cerita -->
+  <script src="js/scenes/judul.js"></script>
+  <script src="js/scenes/prolog.js"></script>
+  <script src="js/scenes/lorong.js"></script>
+  <script src="js/scenes/kasus-1.js"></script>
+  <script src="js/scenes/kasus-2.js"></script>
+  <script src="js/scenes/kasus-3.js"></script>
+  <script src="js/scenes/kasus-4.js"></script>
+  <script src="js/scenes/kasus-5.js"></script>
+  <script src="js/scenes/kasus-6.js"></script>
+  <script src="js/scenes/kasus-7.js"></script>
+  <script src="js/scenes/kasus-8.js"></script>
+  <script src="js/scenes/klimaks.js"></script>
+  <script src="js/scenes/epilog.js"></script>
+
+  <!-- 8. Titik mulai -->
+  <script src="js/main.js"></script>
+</body>
+</html>

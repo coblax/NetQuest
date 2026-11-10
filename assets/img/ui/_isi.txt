@@ -1,0 +1,2 @@
+Bingkai kotak dialog, panel HUD, joystick, kursor. Boleh juga dibuat dengan CSS.
+P16. Sertifikat dan laporan teknisi epilog: p16-sertifikat-laporan.png.

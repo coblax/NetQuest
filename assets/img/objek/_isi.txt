@@ -1,0 +1,2 @@
+Prompt E1, E2, E5, E6 (tampak atas di peta).
+e1-perangkat-jaringan.png, e2-perangkat-kantor.png, e5-pintu-gembok.png, e6-objek-cerita.png

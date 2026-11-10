@@ -1,0 +1,2 @@
+Prompt A. Raka: lembar 4 arah x 3 frame jalan + pose aksi.
+Nama file: raka-jalan.png (satu lembar: baris bawah, atas, kiri, kanan), raka-aksi.png, raka-potret.png

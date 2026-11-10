@@ -1,0 +1,2 @@
+Prompt D3-D7 (+ Ruang Multimedia, Ruang Kepala Sekolah, lorong).
+d3-lab-kantor.png, d4-perpustakaan.png, d5-ruang-server.png, d6-aula.png, d7-gudang.png, d8-multimedia.png, d9-kepsek.png, d10-lorong.png

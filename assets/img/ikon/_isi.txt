@@ -1,0 +1,1 @@
+Prompt F1-F2. f1-alat.png (8 ikon 32x32), f2-antarmuka.png (ikon 16x16 + tombol sentuh 32x32)

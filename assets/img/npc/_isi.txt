@@ -1,0 +1,3 @@
+Prompt C1-C9. Satu NPC = dua file:
+c1-pak-bima.png dan c1-pak-bima-potret.png
+c2-kak-dimas, c3-bu-wati, c4-pak-hasan, c5-bu-rina, c6-pak-joko, c7-pak-hendra, c8-rara, c9-ibu-kepsek
